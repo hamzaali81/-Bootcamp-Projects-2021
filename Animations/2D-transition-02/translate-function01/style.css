@@ -1,0 +1,13 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 3s;
+}
+
+img:hover{
+    /* transform: translateX(-500px); */
+    /* transform: translateY(-500px); */
+    transform: translate(-500px, 200px);
+}

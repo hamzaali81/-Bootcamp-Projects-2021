@@ -1,0 +1,16 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 3s;
+}
+
+img:hover{
+   /* scale Skew process */
+    /* transform: scaleX(.5);
+    transform: scaleX(.5); */
+    /* transform: scale(x,y); */
+    /* transform: scale(2,2); */
+    transform: scale(.5);
+}

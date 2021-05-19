@@ -1,0 +1,14 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 3s;
+}
+
+img:hover{
+   /* Skew */
+  /* transform: skewX(-30deg);
+  transform: skewY(-30deg); */
+  transform: skew(30deg, 21deg);
+ }

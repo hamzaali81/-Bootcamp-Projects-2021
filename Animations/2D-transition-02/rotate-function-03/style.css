@@ -1,0 +1,17 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 3s;
+}
+
+img:hover{
+   /* Rotate */
+   
+    transform: rotate(90deg);
+    transform: rotate(180deg);
+    transform: rotate(360deg);
+    /* transform: rotate(1 turn); */
+    transform: rotate(1 grad);
+}

@@ -1,0 +1,16 @@
+img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    margin-top: 200px;
+    transition: transform 3s;
+    /* transform-origin: top; */
+    transform-origin: 30%; 
+    /* right bottom */
+}
+
+img:hover{
+   /* rotate*/
+
+  transform: rotate(30deg);
+ }

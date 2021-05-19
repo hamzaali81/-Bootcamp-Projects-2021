@@ -1,0 +1,16 @@
+.btn{
+    width: 15vw;
+    height: 5vw;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 28px;
+    transition-property: background-color;
+    transition-duration: 3s;
+
+}
+
+.btn:hover {
+   background-color: green;
+   cursor: pointer;
+}

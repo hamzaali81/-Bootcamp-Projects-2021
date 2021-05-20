@@ -1,0 +1,12 @@
+.banner {
+    height: 100vh;
+    background: url(istockphoto-1208856137-612x612.jpg);
+    background-position: 0 0;
+    animation: animated-pattern 15s linear infinite;
+}
+
+
+@keyframes  animated-pattern{
+    from {background-position: 0 0;}
+    to { background-position: 800px 0}
+}

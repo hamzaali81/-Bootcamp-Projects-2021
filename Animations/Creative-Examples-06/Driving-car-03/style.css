@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+    height: 100vh;
+    background-size: cover;
+
+    background: url(112.jpg) ;
+    background-position: bottom left;
+    animation: driving 15s;
+}
+
+.bike {
+    position: absolute;
+    left: 40px;
+    width: 400px;
+    bottom: -50px;
+}
+.cycle {
+    position: absolute;
+    left: 750px;
+    width: 350px;
+    bottom: -50px;
+}
+
+@keyframes driving {
+    from { background-position: bottom left }
+    to { background-position: bottom right }
+}

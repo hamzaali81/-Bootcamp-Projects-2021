@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+}
+
+div {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    /* animation-name: moving;
+    animation-duration: 5s;
+    animation-fill-mode: both;   */
+    /* animation-iteration-count: 1; */
+    /* animation-direction: normal;   */
+    /* animation-direction: reverse;   */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    animation: moving 3s both 3 ease-in alternate 1s;
+    /* Animation duration - delay  */
+}
+
+@keyframes moving {
+    0% { transform: translateX(0)}
+    50% { transform: translateX(1000px)}
+    100%  { transform: translate(1000px, 1000px)}
+}
